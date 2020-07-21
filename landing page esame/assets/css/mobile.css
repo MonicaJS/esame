@@ -1,0 +1,30 @@
+@media only screen and (min-width: 769px) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* menù per mobile */
+    .burger_menu {
+        position:absolute;
+        left:5px;
+        top:10px;
+        display:block;
+        background-color: black;
+    }
+    .burger_menu img {
+        width:30px;
+    }
+
+    /* nascondo il menù per PC */
+    .nav_flex {
+        display:none;
+    }
+
+
+  }
+

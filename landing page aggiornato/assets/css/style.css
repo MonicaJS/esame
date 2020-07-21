@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width:100%;
+    background:white;
+    margin-top:0px;
+    padding:10px;
+}
+
+/* menù per mobile */
+.burger_menu {
+    display:none;
+}
+
+.nav_flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav_1{
+    width: 100%;
+    text-align: center;
+}
+
+.nav_1 h2{
+    margin-bottom: 5px;
+}
+
+.nav_2{
+    width: 960px;
+    text-align: center;
+}
+
+.nav_2__items {
+    padding-inline-start: 0px;
+}
+
+/* voci del menù da lista */
+.nav_2__items li {
+    display:inline-block;
+    list-style: none;
+    padding:20px;
+    transition: all 700ms ease-in-out;
+}
+
+/* link nelle voci del menù da lista */
+.nav_2__items li a {
+    color:black;
+    text-decoration: none;
+    transition: color 800ms;
+}
+
+.txt_flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.hero{
+    width: 800px;
+    order: 0;
+}
+
+.txt_2{
+    width: 300px;
+    text-align: left;
+}
+
+.txt_2 h3{
+    font-size: xx-large;
+}
+
+/* per bottone call to action */
+.btn-cta{
+    background-color: #00d2b5;
+    padding: 10px;
+    margin-left: 0px;
+    width: 140px;
+    border-radius: 14px;
+    text-align: center;
+}
+.btn-cta a {
+    text-decoration:none;
+    color:white;
+}
+/* passaggio sul btn-cta */
+.btn-cta:hover {
+    background: linear-gradient(135deg, rgb(161, 216, 33) 0%, rgb(87, 152, 3) 100%);
+}
+
+
+/* --  blocco  festures  --- */
+
+#features h2{
+    text-align: center;
+}
+
+.blocco_features{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(197, 197, 197);
+}
+
+.features_item{
+    width: 100%;
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.features_item h5{
+    color: #00d2b5;
+}
+
+/* --  blocco  create 1  --- */
+
+.create1_item2 h2, .create2_item1 h2{
+    margin-top: 0px;
+}
+
+.blocco_create1, .blocco_create2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.create1_item img{
+    max-width: 600px;
+}
+
+.create1_item{
+    width: 600px;
+}
+.create1_item2{
+    width: 300px;
+
+}
+
+
+/* --  blocco  create 2  --- */
+
+.create2_item img{
+    max-width: 600px;
+}
+.create2_item1{
+    width: 300px;
+
+}
+.create2_item{
+    width: 600px;
+}
+
+/* --  blocco  about  --- */
+#aboutus h2{
+    text-align: center;
+}
+
+.blocco_about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_item img{
+    max-width: 600px;
+    padding-right: 50px;
+}
+
+.about_item{
+    width: 600px;
+}
+.about_item2{
+    width: 300px;
+
+}
+
+/* --  blocco  Testimonials  --- */
+#testimonials h2{
+    text-align: center;
+}
+
+.blocco_test{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.test_1 img{
+    width: 100px;
+}
+
+.test_1{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.test_2 {
+    padding: 0px 200px 0px;
+
+}
+
+/* --  blocco  Blog  --- */
+#blog h2{
+    text-align: center;
+}
+
+.blocco_blog{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Blog_item{
+    width: 300px;
+    margin: 0px 20px;
+}
+.Blog_item img{
+    width: 300px;
+}
+
+.Blog_item h5{
+    color: #00d2b5;
+}
+
+/* --  blocco  Contact  --- */
+#blocco_contatti h2{
+    text-align: center;
+}
+
+#blocco_contatti{
+   max-width: 960px;
+   margin:0 auto;
+}
+
+/*#blocco_form{
+    display: flex;
+}*/
+
+.input-container{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.input-container input{
+    margin: auto;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 4px;
+    
+}
+
+.input-container textarea{
+    margin: auto;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 4px;
+    width: 100%;
+    resize: none;
+}
+
+
+
+
